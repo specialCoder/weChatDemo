@@ -1,8 +1,12 @@
 <!--index.wxml-->
 <view class="container">
   <view id="list">
-    <view class="tab">发课程</view>
-    <view class="tab">查课程</view>
+    <view class="tab" bindtap="createNewTask">
+      发课程
+    </view>
+    <view class="tab">
+      查课程
+    </view>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>

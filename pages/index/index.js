@@ -50,5 +50,11 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  createNewTask:function(){
+    console.log('创建代课信息------>');
+    wx.navigateTo({
+      url: '/pages/form/form'
+    })
   }
 })
